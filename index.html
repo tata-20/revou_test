@@ -20,21 +20,27 @@
         </header>
         <div class="card" font-style="blue"><font color="white" size="5" type="bold">Luas Segitiga</font></div>
         <img src="assets/images/segitiga.png">
+    </center>
 
         <p align="left">Rumus Luas Segitiga yaitu:</p>
-            <b>L= 1/2 x a x t</b>
+            <p align="center" type="bold">L= 1/2 x a x t</p>
             <p align="left">
             Dimana<br>
             L= Luas<br>
             a= Alas<br>
             t= Tinggi<br>
-        </p>
+            </p>
 
-        <h2>Hitung Luas Segitiga</h2>
+        <center><h2>Hitung Luas Segitiga</h2></center>
+        
         <form action class="form-triangle">
-            <input type="number" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
-            <input type="number" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
-            <button type="submit" style="padding: 10px 8px;">Hitung</button>
+            <input type="number" name="alas" id="a" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
+            <input type="number" name="tinggi " id="t" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
         </form>
-    </center></body>
+            <div align="left">L= 1/2 x a x t</div>
+            <script src="index.js"></script>
+            <br>
+            <center><button class="btn" type="submit" onClick="tampil()" style="padding: 10px 8px; color: white;">Hitung</button></center>
+        
+    </body>
 </html>
