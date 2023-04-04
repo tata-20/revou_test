@@ -23,7 +23,7 @@
     </center>
 
         <p align="left">Rumus Luas Segitiga yaitu:</p>
-            <p align="center" type="bold">L= 1/2 x a x t</p>
+            <p align="center" type="bold" size="3">L= 1/2 x a x t</p>
             <p align="left">
             Dimana<br>
             L= Luas<br>
@@ -38,10 +38,18 @@
             <input type="number" placeholder="Isi tinggi" id="t" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
         </form>
             <div align="left">L= 1/2 x a x t</div>
+            <label>L= 1/2 x</label>
+            <output type="text" id="bil1"></output>
+            <label>x</label>
+            <output type="text" id="bil2"></output>
+            <br><label>L= </label><output type="text" id="hasil" disabled></output>
             <center><button class="btn" type="submit" onclick="hitung()" style="padding: 10px 8px; color: white;">Hitung</button></center>
-            <input type="text" id="hasil" disabled>
-            <script src="index.js" type="text/javascript"></script>
-            
+            <script src="index.js" type="text/javascript">
+                function reset(){
+                    location.reload()
+                }
+            </script>
+            <button type="submit" onclick="document.location.reload(true)" style="padding: 10px 8px; background-color: orange; float: right;">Reset</button>
         
     </body>
 </html>
