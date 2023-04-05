@@ -9,9 +9,9 @@ document.getElementById("bil2").value = bil2;
 }
 
 function keliling(){
-    var s1= parseInt(document.getElementById("s1").value);
-    var s2= parseInt(document.getElementById("s2").value);
-    var s3= parseInt(document.getElementById("s3").value);
+    var s1= parseInt(document.getElementById("sisi1").value);
+    var s2= parseInt(document.getElementById("sisi2").value);
+    var s3= parseInt(document.getElementById("sisi3").value);
     var jumlah= s1+s2+s3;
     document.getElementById("jumlah").value = jumlah;
     document.getElementById("s1").value = s1;
