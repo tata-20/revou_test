@@ -13,17 +13,17 @@
         <header>
         <nav>
             <div class="menu">
-                <a href="#" style="text-decoration: none;">Segitiga</a>
-                <a href="jajargenjang.html" style="text-decoration: none;">Jajargenjang</a>
+                <a href="index.html" style="text-decoration: none;">Segitiga</a>
+                <a href="#" style="text-decoration: none;">Jajargenjang</a>
             </div><br>
         </nav>
         </header>
-        <div class="card" font-style="blue"><font color="white" size="5" type="bold">Luas Segitiga</font></div>
-        <img src="assets/images/segitiga.png">
+        <div class="card" font-style="blue"><font color="white" size="5" type="bold">Luas Jajargenjang</font></div>
+        <img src="assets/images/jajargenjang.jpg" width="150" height="120">
     </center>
 
-        <p align="left">Rumus Luas Segitiga yaitu:</p>
-            <p align="center" type="bold" size="3">L= 1/2 x a x t</p>
+        <p align="left">Rumus Luas Jajargenjang yaitu:</p>
+            <p align="center" type="bold" size="3">L= a x t</p>
             <p align="left">
             Dimana<br>
             L= Luas<br>
@@ -31,19 +31,19 @@
             t= Tinggi<br>
             </p>
 
-        <center><h2>Hitung Luas Segitiga</h2></center>
+        <center><h2>Hitung Luas Jajargenjang</h2></center>
         
         <form action class="form-triangle">
             <input type="number" placeholder="Isi alas" id="a" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
             <input type="number" placeholder="Isi tinggi" id="t" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
         </form>
-            <div align="left">L= 1/2 x a x t</div>
-            <label>L= 1/2 x</label>
+            <div align="left">L= a x t</div>
+            <label>L= </label>
             <output type="text" id="bil1"></output>
             <label>x</label>
             <output type="text" id="bil2"></output>
             <br><label>L= </label><output type="text" id="hasil" disabled></output>
-            <center><button class="btn" type="submit" onclick="hitung()" style="padding: 10px 8px; color: white;">Hitung</button></center>
+            <center><button class="btn" type="submit" onclick="hitung2()" style="padding: 10px 8px; color: white;">Hitung</button></center>
             <script src="index.js" type="text/javascript">
                 function reset(){
                     location.reload()
@@ -53,34 +53,33 @@
         <br>
         <br>
         <br>
-            <center><div class="card" font-style="blue"><font color="white" size="5" type="bold">Keliling Segitiga</font></div>
-        <img src="assets/images/segitiga.png">
+            <center><div class="card" font-style="blue"><font color="white" size="5" type="bold">Keliling Jajargenjang</font></div>
+        <img src="assets/images/jajargenjang.jpg" width="150" height="120">
     </center>
 
-        <p align="left">Rumus Keliling Segitiga yaitu:</p>
-            <p align="center" type="bold" size="3">K= s1 + s2 + s3</p>
+        <p align="left">Rumus Keliling Jajargenjang yaitu:</p>
+            <p align="center" type="bold" size="3">K= 2 x (a+b)</p>
             <p align="left">
             Dimana<br>
             K= Keliling<br>
-            s= Sisi<br>
+            a= Sisi atas-bawah<br>
+            b= Sisi kanan-kiri<br>
             </p>
 
-        <center><h2>Hitung Keliling Segitiga</h2></center>
+        <center><h2>Hitung Keliling Jajargenjang</h2></center>
         
         <form action class="form-triangle">
-            <input type="number" placeholder="Sisi 1" id="sisi1" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
-            <input type="number" placeholder="Sisi 2" id="sisi2" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
-            <input type="number" placeholder="Sisi 3" id="sisi3" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
+            <input type="number" placeholder="Sisi atas-bawah" id="1" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
+            <input type="number" placeholder="Sisi kanan-bawah" id="2" style="padding: 8px 4px; border-radius: 6px; width: 100%;"><br>
         </form>
-            <div align="left">K= sisi1 + sisi2 + sisi3</div>
-            <label>K= </label>
-            <output type="text" id="s1"></output>
+            <div align="left">K= 2 x (a+b)</div>
+            <label>K= 2 x (</label>
+            <output type="text" id="angka1"></output>
             <label>+</label>
-            <output type="text" id="s2"></output>
-            <label>+</label>
-            <output type="text" id="s3"></output>
+            <output type="text" id="angka2"></output>
+            <label>)</label>
             <br><label>K= </label><output type="text" id="jumlah" disabled></output>
-            <center><button class="btn" type="submit" onclick="keliling()" style="padding: 10px 8px; color: white;">Hitung</button></center>
+            <center><button class="btn" type="submit" onclick="keliling2()" style="padding: 10px 8px; color: white;">Hitung</button></center>
             <script src="index.js" type="text/javascript">
                 function reset(){
                     location.reload()
